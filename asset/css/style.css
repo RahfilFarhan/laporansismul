@@ -1,0 +1,337 @@
+body {
+	font-family: "Poppins", sans-serif;
+	background-color: #f9f9f9;
+}
+
+nav {
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.brand-logo {
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.btn-file {
+	background-color: #206aff;
+	margin-bottom: 10px;
+}
+
+.btn-file:hover {
+	background-color: #094acd !important;
+}
+
+.btn-update {
+	background-color: red;
+	margin-right: 10px;
+}
+
+.btn-update:hover {
+	background-color: #003ecb !important;
+}
+
+.btn-create {
+	background-color: #0057ff;
+}
+
+.btn-create:hover {
+	background-color: #003ecb !important;
+}
+
+.delete-all-btn {
+	background: linear-gradient(45deg, #ff1744, #d50000);
+	color: white;
+	border: none;
+	padding: 12px 24px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 8px;
+	margin-top: 40px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	transition: transform 0.2s ease;
+}
+
+.delete-all-btn:hover {
+	transform: scale(1.05);
+	background: linear-gradient(45deg, #d50000, #b71c1c);
+}
+
+.job-item {
+	display: flex;
+	align-items: center;
+	border: 1px solid #ddd;
+	padding: 15px 20px;
+	border-radius: 12px;
+	margin-bottom: 15px;
+	justify-content: space-between;
+	background-color: white;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+	transition: box-shadow 0.3s ease;
+}
+
+.job-item:hover {
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.job-icon svg {
+	width: 28px;
+	height: 28px;
+	color: #ff5722;
+}
+
+.job-icon img {
+	margin-right: 20px;
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+	border-radius: 8px;
+}
+
+.job-image {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+}
+
+.job-details {
+	flex: 1;
+}
+
+.job-details h2 {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.job-details p {
+	margin: 3px 0;
+	font-size: 14px;
+	color: #666;
+}
+
+.job-actions {
+	display: flex;
+	gap: 10px;
+}
+
+.icon-button {
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 5px;
+	color: #333;
+}
+
+.icon-button svg {
+	width: 24px;
+	height: 24px;
+	transition: transform 0.2s ease;
+}
+
+.icon-button:hover svg {
+	transform: scale(1.2);
+	color: #ff1744;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	background-color: #f9f9f9;
+}
+
+.container-form {
+	max-width: 500px;
+	background: #fff;
+	padding: 30px 40px;
+	margin: 50px auto;
+	border-radius: 12px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 24px;
+	color: #333;
+}
+
+label {
+	font-weight: 500;
+	margin-bottom: 6px;
+	display: block;
+	color: #333;
+}
+
+input[type="text"],
+input[type="date"] {
+	width: 100%;
+	padding: 10px 14px;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	margin-bottom: 18px;
+	font-size: 14px;
+	transition: border-color 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus {
+	border-color: #4a90e2;
+	outline: none;
+}
+
+.file-label {
+	display: inline-block;
+	background: linear-gradient(45deg, #007bff, #0056b3);
+	color: white;
+	padding: 10px 16px;
+	text-align: center;
+	border-radius: 6px;
+	cursor: pointer;
+	font-weight: 500;
+	margin-bottom: 20px;
+	transition: background 0.3s;
+}
+
+.file-label:hover {
+	background: linear-gradient(45deg, #0056b3, #003d80);
+}
+
+.button-group {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	margin-top: 5px;
+}
+
+.button-container {
+	min-height: 40px;
+}
+
+.btn {
+	border: none;
+	padding: 12px 24px;
+	font-size: 14px;
+	border-radius: 8px;
+	cursor: pointer;
+	color: white;
+	transition: transform 0.2s ease;
+	min-width: 110px;
+	text-transform: capitalize;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	line-height: normal;
+}
+
+.btn-update {
+	background: linear-gradient(45deg, #ff1744, #d50000);
+}
+
+.btn-create {
+	background: linear-gradient(45deg, #206aff, #003ecb);
+}
+
+.btn:hover {
+	transform: scale(1.05);
+}
+
+.btn-update:hover {
+	background: linear-gradient(45deg, #d50000, #b71c1c);
+}
+
+.btn-create:hover {
+	background: linear-gradient(45deg, #003ecb, #002fa7);
+}
+
+.page-footer {
+	padding: 20px 0 !important;
+	font-size: 13px;
+	background-color: #1565c0 !important;
+}
+
+.footer-copyright small {
+	color: #ddd;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+.detail-text {
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.detail-text p {
+	margin: 4px 0;
+}
+
+/* Login */
+.login-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 80vh;
+	background: #f9f9f9;
+}
+
+.login-card {
+	background: white;
+	padding: 30px;
+	border-radius: 15px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	width: 320px;
+}
+
+.login-icon {
+	background: #1976d2; /* warna biru tema lu */
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: -60px auto 20px;
+}
+
+.login-card h2 {
+	font-size: 18px;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+.login-card input[type="text"],
+.login-card input[type="password"] {
+	width: calc(100% - 20px);
+	padding: 12px;
+	margin: 8px auto;
+	border: none;
+	background: #f2f2f2;
+	border-radius: 5px;
+	display: block;
+}
+
+.login-options a {
+	text-decoration: none;
+	color: #1976d2;
+	font-weight: bold;
+}
+
+.login-card button {
+	background: #1976d2; /* biru tema */
+	color: white;
+	border: none;
+	width: 95%;
+	margin: 0 auto;
+	padding: 12px;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.login-card button:hover {
+	background: #1258a8;
+}

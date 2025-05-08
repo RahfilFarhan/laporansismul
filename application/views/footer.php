@@ -1,36 +1,42 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed'); ?>
 </main>
 
-  <footer class="page-footer light-blue darken-4">
-    <div class="footer-copyright">
-      <div class="container">
-        <small>
-          Copyright © <?= date("Y"); ?> Loker.ID All rights reserved.
-        </small>
-      </div>
+<footer class="page-footer light-blue darken-4">
+  <div class="footer-copyright">
+    <div class="container">
+      <small>
+        Copyright © <?= date("Y"); ?> Loker.ID All rights reserved.
+      </small>
     </div>
-  </footer>
+  </div>
+</footer>
 
-  <script type="text/javascript">
-    var element = document.querySelector('.sidenav');
-    var instance = M.Sidenav.init(element);
-  </script>
+<script type="text/javascript">
+  var element = document.querySelector('.sidenav');
+  var instance = M.Sidenav.init(element);
+</script>
 
-  <style media="screen">
-    body {
-      display: flex;
-      min-height: 100vh;
-      flex-direction: column;
-    }
+<style media="screen">
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
 
-    .page-footer {
-      padding: 10px 0 !important;
-    }
+  .page-footer {
+    padding: 20px 0 !important;
+    font-size: 13px;
+    background-color: #1565c0 !important;
+  }
 
-    main {
-      flex: 1 0 auto;
-    }
-  </style>
-  </body>
+  .footer-copyright small {
+    color: #ddd;
+  }
 
-  </html>
+  main {
+    flex: 1 0 auto;
+  }
+</style>
+</body>
+
+</html>
