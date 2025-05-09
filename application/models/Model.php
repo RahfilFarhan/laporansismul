@@ -35,25 +35,13 @@ class Model extends CI_Model
         }
     }
 
-    public function update($id, $filename = NULL)
+
+    public function update($id, $updatedData)
     {
-        $data = [
-            'judul' => $this->input->post('judul', TRUE),
-            'deskripsi' => $this->input->post('deskripsi', TRUE),
-            'perusahaan' => $this->input->post('perusahaan', TRUE),
-            'tanggal_mulai' => $this->input->post('tanggal_mulai', TRUE),
-            'tanggal_selesai' => $this->input->post('tanggal_selesai', TRUE),
-            'kota' => $this->input->post('kota', TRUE),
-            'gaji' => $this->input->post('gaji', TRUE)
-        ];
-
-        if ($filename !== NULL) {
-            $data['filename'] = $filename;
-        }
-
         $this->db->where('id', $id);
-        $this->db->update('post', $data);
+        $this->db->update('post', $updatedData);
     }
+
 
     public function delete($id)
     {
